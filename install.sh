@@ -17,5 +17,5 @@ echo "Completed"
 echo "DB User: gcpstory"
 echo "DB Name: gcpstory"
 echo "DB Pass: gcpstory22"
-echo "Now use command:"  shutdown -r now  " to take effect.
+echo "Now use command:  shutdown -r now  to take effect."
 echo "After installation, remove file install.php manually"
