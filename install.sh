@@ -9,6 +9,10 @@ sudo yum -y install "ogp_panel.rpm"
 sudo yum install php-mysql -y
 sudo yum install php-mysqli -y
 
+service httpd restart
+service php-fpm restart
+service php-mysqli restart
+
 clear
 
 echo "."
