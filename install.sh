@@ -8,13 +8,10 @@ wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/CentO
 sudo yum -y install "ogp_panel.rpm"
 sudo yum install php-mysql -y
 sudo yum install php-mysqli -y
-
+php -m | grep mysqli
 service httpd restart
-service php-fpm restart
-service php-mysqli restart
 
 clear
-
 echo "."
 echo "."
 echo "Completed"
